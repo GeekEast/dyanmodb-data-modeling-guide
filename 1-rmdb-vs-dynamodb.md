@@ -16,3 +16,17 @@
 - data is **compact** with less sparse data.
 
 In summary, RMDBS is suitable for **size-predictable**, **structure-predictable** and **cheap-storage** decision. And it's not suitable for data whose data size and data structure is consistently **changing** along the app or system's lifecycle. 
+
+
+## DynamoDB
+
+### Good
+- **High Performance**: key-value pair -> consist performance on any scale, `single-digit` millisecond latency
+- **Scalability**: horizontally scaled
+- **Schemaless**: suitable for flexible data structure
+- **Partition Tolerant**: one node failed, doesn't affect the whole
+
+### Bad
+- Data might be **duplicated**.
+- Consistency might be **eventually**.
+
