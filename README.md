@@ -1,6 +1,6 @@
 
 ## Table of Content
-- [Relational Database](1-relational-database.md)
+- [Relational Database](./1-rmdb-vs-dynamodb.md)
 - [Pricing Model](2-dynamodb-pricing-model.md)
 - [DynamoDB Basics](3-dynamodb-basics.md)
 - [Data Types](4-data-types.md)
